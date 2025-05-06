@@ -1,0 +1,13 @@
+{
+  "name": "tarea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "main": "tsc main.ts && node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

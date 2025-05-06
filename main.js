@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var perro_1 = require("./clases_animales/perro");
+var gato_1 = require("./clases_animales/gato");
+var pez_1 = require("./clases_animales/pez");
+var perro = new perro_1.Perro("Fito", 2, "Maximiliano");
+perro.emitirSonido();
+perro.info_animal();
+var gato = new gato_1.Gato("Feli", 1, "Rodrigo");
+gato.emitirSonido();
+gato.info_animal();
+var pez = new pez_1.Pez("Nemo", 34);
+pez.emitirSonido();
+pez.info_animal();
