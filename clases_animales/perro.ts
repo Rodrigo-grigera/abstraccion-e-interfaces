@@ -1,12 +1,14 @@
 import { Animal } from "../abstra_animal";
 import { MascotaConDueño } from "../interfaces/interMascota";
 
-export class Perro implements Animal , MascotaConDueño{
+export class Perro extends Animal implements MascotaConDueño{
     nombre: string;
     edad: number;
     nombreDeDueño: string;
 
     constructor(nombre:string,edad: number, nombreDeDueño: string){
+        super(nombre,edad);
+        
         this.nombre = nombre;
         this.edad = edad;
         this.nombreDeDueño = nombreDeDueño

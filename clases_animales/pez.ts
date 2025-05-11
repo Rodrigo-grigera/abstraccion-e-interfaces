@@ -1,11 +1,13 @@
 import { Animal } from "../abstra_animal";
 
 
-export class Pez implements Animal{
+export class Pez extends Animal{
     nombre: string;
     edad: number;
 
     constructor(nombre:string, edad:number){
+        super(nombre,edad);
+        
         this.nombre = nombre;
         this.edad = edad        
     }
